@@ -36,7 +36,7 @@ include 'modules/connectDatabase.php';
     <div class="revenue_left_content">
         <div class="filter_content">
             <form action="" method="get">
-                <div class="calender_revenue">
+                <div class="calender_revenue" id="calender_revenue">
                     <input name="date-from" type="date" class="date-picker__date-from">
                     <span class="material-symbols-outlined">arrow_forward</span>
                     <input name="date-to" type="date" class="date-picker__date-to">

@@ -74,4 +74,13 @@ function clicked(ele){
         all_element[0].children[i].setAttribute('class',"button_filter");
     }
     ele.setAttribute('class',"button_filter button_filter_clicked");
+
+    var filter = document.getElementById("calender_revenue");
+    if(ele.innerText == "Ngày"){
+        filter.style.display = 'flex';
+    }
+    else{
+        filter.style.display = 'none';
+
+    }
 }
